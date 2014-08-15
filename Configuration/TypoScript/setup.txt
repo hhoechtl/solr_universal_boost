@@ -1,0 +1,2 @@
+# Add field containing boost keywords to query (of course with a high boost)
+plugin.tx_solr.search.query.queryFields := addToList(boostkeywords_stringM^{$plugin.tx_solr.search.relevance.keywordboost})

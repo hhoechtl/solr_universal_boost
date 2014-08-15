@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-12-30T14:25:25Z" product-name="solr_universal_boost">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_solr_universal_boost_domain_model_boostkeyword">
+				<source>Boost Keyword</source>
+			</trans-unit>
+			<trans-unit id="tx_solr_universal_boost_domain_model_boostkeyword.ref_table">
+				<source>Ref Table</source>
+			</trans-unit>
+			<trans-unit id="tx_solr_universal_boost_domain_model_boostkeyword.ref_uid">
+				<source>Ref Uid</source>
+			</trans-unit>
+			<trans-unit id="tx_solr_universal_boost_domain_model_boostkeyword.keyword">
+				<source>Keyword</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

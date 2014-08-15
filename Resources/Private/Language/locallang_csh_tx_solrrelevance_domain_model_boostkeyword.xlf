@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-12-30T14:25:25Z" product-name="solr_universal_boost">
+		<header/>
+		<body>
+
+			<trans-unit id="ref_table.description">
+				<source>refTable</source>
+			</trans-unit>
+			<trans-unit id="ref_uid.description">
+				<source>refUid</source>
+			</trans-unit>
+			<trans-unit id="keyword.description">
+				<source>keyword</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

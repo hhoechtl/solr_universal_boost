@@ -1,0 +1,1 @@
+plugin.tx_solr.search.relevance.keywordboost = 40
