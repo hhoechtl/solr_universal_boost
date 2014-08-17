@@ -18,8 +18,8 @@ class StoreBoostKeywords {
 		$db = $GLOBALS['TYPO3_DB'];
 
 		if (
-
-			array_key_exists('boostKeywords', $incomingFieldArray) && is_array($incomingFieldArray['boostKeywords'])
+			array_key_exists('boostKeywords', $incomingFieldArray) &&
+			is_array($incomingFieldArray['boostKeywords'])
 		) {
 
 			/*

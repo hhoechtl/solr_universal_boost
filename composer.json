@@ -1,7 +1,7 @@
 {
     "name": "hhoechtl/solr_universal_boost",
     "description": "Possibility to assign a list of boosting keywords to every indexable record type",
-	"type": "typo3cms-extension",
+	"type": "typo3-cms-extension",
 	"keywords": ["TYPO3 CMS", "solr", "relevance", "keyword"],
 	"version": "1.0.0",
 	"license": "GPL-2.0+",

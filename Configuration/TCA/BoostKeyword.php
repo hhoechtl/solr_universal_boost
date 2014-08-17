@@ -145,7 +145,7 @@ $itemTypes = $db->exec_SELECTgetRows('item_type', 'tx_solr_indexqueue_item', '1=
 
 foreach($itemTypes as $itemType){
 	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns($itemType['item_type'],$keywordFunc);
-	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes($itemType['item_type'],'boostKeywords');
+	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes($itemType['item_type'],'--div--;Boost,boostKeywords');
 }
 
 
