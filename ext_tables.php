@@ -37,5 +37,3 @@ $TCA['tx_solr_universal_boost_domain_model_boostkeyword'] = array(
 		'iconfile' => ExtensionManagementUtility::extRelPath($_EXTKEY) . 'Resources/Public/Icons/tx_solr_universal_boost_domain_model_boostkeyword.png'
 	),
 );
-
-?>

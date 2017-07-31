@@ -9,9 +9,12 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
  * BE Ajax function
  */
 
-$TYPO3_CONF_VARS['BE']['AJAX']['tx_solr_universal_boost::getTerms'] =
-	ExtensionManagementUtility::extPath('solr_universal_boost') .
-	'Classes/Service/Backend/KeywordService.php:HHoechtl\SolrUniversalBoost\Service\Backend\KeywordService->ajaxGetTerms';
+$GLOBALS['TYPO3_CONF_VARS']['BE']['AJAX']['tx_solr_universal_boost::getTerms'] = [
+    'callbackMethod' => ExtensionManagementUtility::extPath('solr_universal_boost') .
+        'Classes/Service/Backend/KeywordService.php:HHoechtl\SolrUniversalBoost\Service\Backend\KeywordService->ajaxGetTerms',
+    'csrfTokenCheck' => false
+];
+
 
 /*
  * XClasses
@@ -35,5 +38,3 @@ $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['solr']['Indexer']['indexPageSubstitutePa
  * eID Dispatcher
  */
 $TYPO3_CONF_VARS['FE']['eID_include']['ajaxDispatcher'] = ExtensionManagementUtility::extPath('solr_universal_boost').'Classes/EidDispatcher.php';
-
-?>

@@ -115,6 +115,7 @@ class Keywords {
 			$html .= '</div>';
 		}
 		$html .= '</div>';
+        $html .= '<input type="hidden" name="' . $PA['itemFormElName'] . '[]" value=""/>';
 		return $html;
 	}
 

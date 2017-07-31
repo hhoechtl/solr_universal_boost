@@ -50,7 +50,7 @@ class StoreBoostKeywords {
 				$dbKeywords[] = $row['keyword'];
 			}
 
-			$diff = array_diff($incomingFieldArray['boostKeywords'], $dbKeywords);
+			$diff = array_diff(array_filter($incomingFieldArray['boostKeywords']), $dbKeywords);
 
 			foreach ($diff as $newKeyword) {
 				$dbInsertRow = array(
